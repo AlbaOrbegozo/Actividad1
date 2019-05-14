@@ -11,6 +11,13 @@ public class CalcularPeriodo {
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
 		
+		
+		LocalDate fecha = LocalDate.of(2000, Month.FEBRUARY, 18);	 
+		calcularPeriodo("Mi cumpleaños", fecha);
+				
+		LocalDate fecha = LocalDate.of(1534, Month.SEPTEMBER, 29);
+		calcularPeriodo("Día aleatorio", fecha);
+		
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
