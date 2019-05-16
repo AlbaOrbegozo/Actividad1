@@ -18,6 +18,9 @@ public class CalcularPeriodo {
 		LocalDate fecha = LocalDate.of(1534, Month.SEPTEMBER, 29);
 		calcularPeriodo("Día aleatorio", fecha);
 		
+		LocalDate fecha = LocalDate.of(1992, Month.APRIL, 14);
+		calcularPeriodo("Nacimiento Dani", fecha);
+		
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
